@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2273fabb1e.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <header>  <!-- Cabecera del body -->
+        <nav>
+            <br>
+            <a class="nav" href="index.html">Home</a>
+
+            <a class="nav" href="Historia.html">Galeria</a>
+            <h1> Las mejores Recetas</h1> 
+        </nav>  
+        
+    </header>
+    <form action="index.js" method="POST" enctype="">
+
+        <div class="form"> <!-- inputs de diferentes tipos -->
+            <h4>Formulario de Registro</h4>
+
+            <label for="nombreUsuario">Nombre:<span></span></label><br>
+            <input class="controls" type="text" required placeholder="Ingrese su nombre" name="nombreUsuario" id="inputNombre"><br>
+
+            <label for="apellidoUsuario">Apellido:</label><br>
+            <input class="controls" type="text" required placeholder="Ingrese su apellido" name="apellidoUsuario" id="inputApellido"><br>
+
+            <label for="passUsuario">Contraseña:</label><br>
+            <input class="controls" type="password" required placeholder="Ingrese su contraseña" name="passUsuario" id="inputPass"><br>
+        
+            <label for="mailUsuario">E-Mail:</label><br>
+            <input class="controls" required placeholder="Ingrese su E-Mail" type="email" name="mailUsuario" id="inputMail"><br>
+        
+            <label for="numUsuario">Edad:</label><br>
+            <input class="controls" type="number" required placeholder="Ingrese su edad" name="numUsuario" id="inputNumm"><br>
+        
+            <label for="dateUsuario">Fecha de nacimiento:</label><br>
+            <input class="controls" type="date" name="dateUsuario" id="inputDate"><br>
+
+            <h4>Genero</h4>
+            <select name="desplegable" id="comis"><br>
+                <option value="vacia" selected>selecciona una opción</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otro">Otro</option>
+            </select>
+           
+           
+            <h4>Mensaje</h4>
+            <textarea placeholder="Ayudanos a Mejorar! deja tus recomendaciones aca" cols="40" rows="5"></textarea><br>
+            <h4>Aca podras encontrar los mejores productos</h4>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.766327826096!2d-58.45000632359631!3d-34.559471355164035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5cc5db17c5d%3A0x3762c478daeb2488!2sMcal%2C%20Mariscal%20Antonio%20Jos%C3%A9%20de%20Sucre%201612%2C%20C1428%20CABA!5e0!3m2!1ses!2sar!4v1693424299213!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <button type="button" class="btn btn-secondary">Enviar</button>
+           
+        </div><br>
+        <footer>
+            <h3 class="text-footer">Seguinos</h3>
+            <div class="redes">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    
+                
+    
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+    
+                <a href="https://www.tiktok.com/es/" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+        </footer>
+</body>
+</html>

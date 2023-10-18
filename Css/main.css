@@ -1,0 +1,318 @@
+:root{
+  /* */
+  --background: #f7fcfb;
+  --head:#094067;
+  --boton:#3da9fc;
+  --formulario:#ef4565;
+  --footer:#90b4ce;
+  --iconos:rgba(3, 245, 224, 0.889);
+  --texto:#5f6c7b;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--background);
+   }
+   ul, ol{
+    list-style-type: none;
+  
+   }
+   /* Universal*/
+   header{
+    color: rgba(3, 245, 224, 0.889);
+    background-color:var(--head);
+    width: 100%;
+    text-align: center;
+   }
+   header h1{
+    font-size: 40px;
+   }
+  .nav{ 
+    color: rgba(3, 245, 224, 0.889);
+    background-color:#a30072;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 40%;   
+    font-size: 18px;
+  }
+  .nav:hover{
+    border: 1px solid rgb(220, 220, 220);
+    color: white;
+    background-color: #000000;
+  }
+    /*HEADER */
+  footer{
+    width: 100%;
+    text-align: center;
+    background-color:var(--head);
+    height: 100px;
+  }
+  footer h3{
+    font-size: 30px;
+    color: rgba(3, 245, 224, 0.889);
+
+  }
+  .redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fa-brands {
+    margin: 5px;
+    width: 55px;
+    color: #ef4565;
+    font-size: 40px;
+  }
+  .fa-brands:hover{
+    color: rgb(220, 220, 220);
+  }
+  
+   /*FOOTER */
+  .contenedor{
+    display: flex;
+    margin: 60px auto 40px;
+    justify-content: space-between;
+    gap: 8px;
+       
+  }
+  .contenedor h2{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(34, 2, 176);
+    text-transform: uppercase;
+  }
+  .contenedor p{
+    font-size: 25px;
+    font-weight: 800;
+    color:rgb(255, 255, 255);
+  }
+  .contenedor a{
+    font-size: 25px;
+    background-color: var(--boton);
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    border-radius: 75%;
+    text-decoration: none;
+  }
+  .contenedor a:hover{
+    color: white;
+    background-color: rgb(137, 23, 23);
+  }
+
+  #arttequeños{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/tequeñitos.jpg);
+    opacity: 0.89;
+    filter: brightness(90%);
+    background-repeat: round;
+    object-fit: cover;
+  }
+  #artempanadas{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Empanadas.jpg);
+    opacity: 0.89;
+    filter: brightness(90%);
+    background-repeat: no-repeat;
+    
+  }
+  #artpollo{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+   background-image: url(../img/pollito.jpg);
+   opacity: 0.89;
+   filter: brightness(90%);
+   background-repeat: no-repeat;
+    
+    
+    
+    /*PAGINA PRINCIPAL! */
+  }
+  .form{
+    width: 450px;
+    background-color:var(--formulario) ;
+    padding: 30px;
+    margin: 80px auto;
+    color:white;
+    font-weight: 700;
+  }
+  .controls{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+  .btn{
+  background-color: var(--boton);
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  }
+  .btn:hover{
+    background-color: rgb(185, 205, 35);
+  }
+  iframe{
+  margin-top: 30px;
+  width: 100%;
+  }
+  /*PAGINA DE FORMULARIO*/
+
+ .contenedorimagenprin{
+  display: flex;
+  background-color: rgb(135, 198, 253);
+  flex-wrap: wrap;
+  height: 420px;
+  justify-content: space-evenly;
+  align-items: center;
+
+ }
+ .tituloprincipal{
+  align-self: center;
+  padding: 20px;
+  margin-bottom: 10px;
+ }
+ .tituloprincipal h1{
+  color: rgb(0, 255, 174);
+  font-size: 30px;
+  background-color: #000000;
+ }
+ .tituloprincipal li{
+  font-size: 20px;
+  font-weight: 600;
+ }
+ .img{
+  width: 500px;
+  height: 400px;
+ }
+.img img{
+  width: 100%;
+  object-fit: cover;
+  margin-top: 5px;
+  padding: 5px;
+  
+
+}
+.tabla{
+  align-self: center;
+  padding: 20px;
+  margin-right: 50px;
+ 
+}
+
+ .maincontainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  gap: 10px;
+  
+
+ }
+ .item1{
+  color: black;
+  margin-top: 20px;
+  margin-left: 22px;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 5px;
+ }
+ .item1 ul{
+  list-style: disc;
+ }
+ .item1 h3{
+  font-size: 25px;
+  color: var(--formulario);
+
+ }
+ 
+
+ .item2{
+  font-weight: 600;
+  color: black;
+  flex: 1 1 auto;
+  padding: 20px;
+  font-size: 18px;
+ }
+ .item2 h2{
+  font-size: 35px;
+  color: var(--formulario);
+ }
+ .item2 ol{
+  list-style: square;
+ }
+ table{
+  width: 800px;
+  height: 250px;
+  border: 2px solid #000000;
+  table-layout: fixed;
+  border-collapse: separate;
+  background-color: rgb(135, 198, 253);
+  margin: 10px;
+ 
+  }
+  th,td{
+    font-size: 18px;
+  }
+  thead{
+    background-color: var(--formulario);
+    color: white;
+  }
+  .video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .video-receta{
+    width: 50%;
+    height: 550px;
+  }
+  .video-receta iframe{
+    width: 100%;
+  }
+  
+ /*PAGINA DE TEQ,POLLO Y EMPANADAS  */
+
+
+
+ 
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
